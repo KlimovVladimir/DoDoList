@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@layout/card_background"
+    android:paddingRight="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <View
+        android:id="@+id/colorbar"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/green" />
+
+    <CheckBox
+        android:id="@+id/note_comleted"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp" />
+
+    <!-- <TextView
+         android:id="@+id/note_text_time_item"
+
+         android:layout_width="4dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_marginLeft="20dp"
+         android:gravity="center_vertical"
+         android:minHeight="64dp"
+         android:textSize="18sp"
+         android:text="TextView"
+         tools:text="Time" /> -->
+
+    <!-- <ImageView
+          android:id="@+id/note_change"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="16dp"
+          android:src="@android:drawable/ic_menu_rotate" /> -->
+    <!-- <ImageView
+         android:id="@+id/note_delete"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="16dp"
+         android:layout_marginTop="16dp"
+         android:src="@android:drawable/ic_delete" /> -->
+
+    <TextView
+        android:id="@+id/note_text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minHeight="64dp"
+        android:text="TextView"
+        android:layout_marginLeft="16dp"
+        android:textSize="14sp"
+        tools:text="Testing" />
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/note_text_date_item"
+
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Date" />
+        <TextView
+            android:id="@+id/note_text_subject_item"
+
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Subject" />
+    </LinearLayout>
+
+  <!--  <TextView
+        android:id="@+id/note_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        style="@style/TextIcon"
+        android:textSize="24sp"
+        android:text="@string/fa_edit_marker"/> -->
+    <ImageView
+        android:id="@+id/note_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/ic_del_note"
+        />
+
+
+
+</LinearLayout>

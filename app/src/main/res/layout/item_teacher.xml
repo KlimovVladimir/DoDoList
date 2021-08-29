@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@layout/card_background"
+    android:paddingRight="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+
+    <TextView
+        android:id="@+id/teacher_item"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="64dp"
+        android:paddingLeft="20dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:text="Sidorov" />
+
+    <ImageView
+        android:id="@+id/teacher_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:src="@drawable/ic_del_note"
+        />
+
+
+</LinearLayout>

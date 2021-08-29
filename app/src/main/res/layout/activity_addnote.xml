@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/lightgray"
+        android:elevation="4dp"
+        app:popupTheme="@style/Theme.DoDoList.PopupOverlay"
+        app:titleTextColor="@color/black" />
+
+  <!--  <TextView
+        android:id="@+id/textViewtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задача"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"/> -->
+
+    <EditText
+        android:id="@+id/text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:hint="@string/note_hint"
+        android:minHeight="40dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:background="@layout/edit_background"
+        android:paddingRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+
+  <!--  <TextView
+        android:id="@+id/textViewdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата сдачи"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"/> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/note_hint5"
+            android:padding="15dp"
+            android:ems="5"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:inputType="date"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:background="@layout/edit_background"
+            android:paddingRight="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+    </LinearLayout>
+
+ <!--   <TextView
+        android:id="@+id/textViewsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Предмет"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"/> -->
+
+    <EditText
+        android:id="@+id/text_edit_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:hint="@string/note_hint2"
+        android:minHeight="40dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:background="@layout/edit_background"
+        android:paddingRight="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+
+   <!-- <TextView
+        android:id="@+id/textViewcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цвет"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="10dp"/> -->
+    <TextView
+        android:id="@+id/colorselect"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/yellow"
+        android:text="Цвет"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"
+            android:padding="15dp"
+            android:text="Напоминание"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:textColor="@color/black"
+            android:background="@layout/edit_background"
+            android:paddingRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+        <EditText
+            android:id="@+id/editText_dateNot"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:ems="5"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:hint="Установите дату напоминания"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:background="@layout/edit_background"
+            android:paddingRight="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+        <EditText
+            android:id="@+id/editText_time"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:ems="5"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:inputType="time"
+            android:textColor="@color/black"
+            android:hint="@string/note_hint6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:background="@layout/edit_background"
+            android:paddingRight="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+           />
+    </LinearLayout>
+
+
+
+</LinearLayout>

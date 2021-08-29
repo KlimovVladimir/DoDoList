@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@layout/card_background"
+    android:paddingRight="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <View
+        android:id="@+id/colorbarschedule"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/green" />
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp">
+        <TextView
+            android:id="@+id/schedule_text_time_item"
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Time1" />
+        <TextView
+            android:id="@+id/schedule_text_timeend_item"
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Time2" />
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/schedule_text_subject_item"
+
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Subject" />
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/schedule_text_teacher_item"
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Teacher" />
+        <TextView
+            android:id="@+id/schedule_text_room_item"
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:textSize="14sp"
+            android:text="TextView"
+            tools:text="Room" />
+    </LinearLayout>
+
+
+  <!--  <TextView
+        android:id="@+id/schedule_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        style="@style/TextIcon"
+        android:textSize="24sp"
+        android:text="@string/fa_edit_marker"/> -->
+    <ImageView
+        android:id="@+id/schedule_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/ic_del_note"/>
+
+
+
+</LinearLayout>

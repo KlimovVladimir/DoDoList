@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/lightgray"
+        android:elevation="4dp"
+        app:popupTheme="@style/Theme.DoDoList.PopupOverlay"
+        app:titleTextColor="@color/black" />
+
+    <EditText
+        android:id="@+id/text_edit_subject_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:hint="@string/note_hint2"
+        android:minHeight="45dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:background="@layout/edit_background"
+        android:paddingRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+
+    <EditText
+        android:id="@+id/text_edit_teacher_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+        android:background="@layout/edit_background"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:hint="@string/note_hint3"
+        android:minHeight="40dp"
+        android:padding="15dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/text_edit_room_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:hint="@string/note_hint4"
+        android:minHeight="40dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:background="@layout/edit_background"
+        android:paddingRight="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+
+    <EditText
+        android:id="@+id/text_edit_time_schedule_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:hint="@string/note_hint_time1"
+        android:minHeight="40dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:background="@layout/edit_background"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+
+
+    <EditText
+        android:id="@+id/text_edit_time_schedule_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:gravity="top"
+        android:hint="@string/note_hint_time2"
+        android:minHeight="40dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:background="@layout/edit_background"
+        android:paddingRight="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+
+    <TextView
+        android:id="@+id/colorselectschedule"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/yellow"
+        android:text="Цвет"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:text="День недели:"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

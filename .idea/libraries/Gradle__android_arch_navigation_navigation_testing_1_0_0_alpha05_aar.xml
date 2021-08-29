@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.navigation:navigation-testing:1.0.0-alpha05@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c5a24df352d56428b043468ba75a4f8/jetified-navigation-testing-1.0.0-alpha05/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c5a24df352d56428b043468ba75a4f8/jetified-navigation-testing-1.0.0-alpha05/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c5a24df352d56428b043468ba75a4f8/jetified-navigation-testing-1.0.0-alpha05/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c46b502abb311ce1fb2355e996be1bf1/jetified-navigation-testing-1.0.0-alpha05/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c46b502abb311ce1fb2355e996be1bf1/jetified-navigation-testing-1.0.0-alpha05/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c46b502abb311ce1fb2355e996be1bf1/jetified-navigation-testing-1.0.0-alpha05/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/feee09e93e9fcb0b2b90542525f99dfe/jetified-navigation-testing-1.0.0-alpha05/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68b67ba9936bdc81fe827f3a8f83ae44/jetified-navigation-testing-1.0.0-alpha05/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/621436187f20ccf7e49a42cbf9abfe9e/jetified-navigation-testing-1.0.0-alpha05/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/621436187f20ccf7e49a42cbf9abfe9e/jetified-navigation-testing-1.0.0-alpha05/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/621436187f20ccf7e49a42cbf9abfe9e/jetified-navigation-testing-1.0.0-alpha05/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-testing/1.0.0-alpha05/6fe30f51b93f286539d89b2279d595c7a349f28d/navigation-testing-1.0.0-alpha05-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

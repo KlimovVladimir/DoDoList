@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382173330668",
+    "project_id": "studentlist-6a2de",
+    "storage_bucket": "studentlist-6a2de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382173330668:android:27502bba1930d7f971b9c9",
+        "android_client_info": {
+          "package_name": "com.example.dodolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382173330668-0shr3q8hcmvo2il9gr1m11dqt6n165g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv_u3OumzRfLihPK9gofzWVQwjvjTVlOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382173330668-0shr3q8hcmvo2il9gr1m11dqt6n165g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

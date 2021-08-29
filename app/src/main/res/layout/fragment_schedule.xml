@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.calendar.DateActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.DoDoList.PopupOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightgray"
+            android:theme="@style/DotsColor"
+            app:popupTheme="@style/Theme.DoDoList.PopupOverlay"
+            app:titleTextColor="@color/black" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@color/lightgray"
+                app:elevation="16dp"
+                app:itemIconTint="@color/bottom_navigation_item_background_colors"
+                app:itemTextColor="@color/bottom_navigation_item_background_colors"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:menu="@menu/menu_bottom_navigation" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textMonday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Понедельник"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:paddingLeft="8dp"/>
+                <TextView
+                    android:id="@+id/nosubj_date1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Занятий нет"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/textTuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Вторник"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:paddingLeft="8dp"/>
+                <TextView
+                    android:id="@+id/nosubj_date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Занятий нет"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/list_tuesday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/textWednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Среда"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:paddingLeft="8dp"/>
+                <TextView
+                    android:id="@+id/nosubj_date3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Занятий нет"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/textThursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Четверг"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:paddingLeft="8dp"/>
+                <TextView
+                    android:id="@+id/nosubj_date4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Занятий нет"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_thursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/textFriday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Пятница"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:paddingLeft="8dp"/>
+                <TextView
+                    android:id="@+id/nosubj_date5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Занятий нет"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/textSaturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Суббота"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:paddingLeft="8dp"/>
+                <TextView
+                    android:id="@+id/nosubj_date6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Занятий нет"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_saturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/change_week1"
+        android:orderInCategory="100"
+        android:title="@string/change_week1"
+        android:titleTextColor="@color/black" />
+    <item
+        android:id="@+id/change_week2"
+        android:orderInCategory="100"
+        android:title="@string/change_week2"
+        android:titleTextColor="@color/black" />
+    <item
+        android:id="@+id/downloadSchedule"
+        android:orderInCategory="100"
+        android:titleTextColor="@color/black"
+        android:title=""
+        android:icon="@drawable/ic_download"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_note_toolbar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_note_custom"
+        android:title=""
+        app:showAsAction="always"
+        android:titleTextColor="@color/black" />
+
+</menu>

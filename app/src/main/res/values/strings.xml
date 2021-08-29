@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">StudentList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_save">Сохранить</string>
+
+    <string name="menu_today">Задачи</string>
+    <string name="menu_gallery">Календарь</string>
+    <string name="menu_slideshow">Настройки</string>
+
+    <string name="schedule">Расписание</string>
+    <string name="tasks">Задачи</string>
+    <string name="calendar">Календарь</string>
+
+    <string name="note_hint">Текст задачи</string>
+    <string name="note_hint_time1">Время начала</string>
+    <string name="note_hint_time2">Время конца</string>
+    <string name="note_hint2">Название предмета</string>
+    <string name="note_hint3">Преподаватель</string>
+    <string name="note_hint4">Аудитория</string>
+    <string name="note_hint5">Дата</string>
+    <string name="note_hint6">Время напоминания</string>
+    <string name="note_add">Добавить</string>
+    <string name="date_select">Список дел</string>
+    <string name="group_search">Введите группу</string>
+
+    <string name="change_week1">Четная неделя</string>
+    <string name="change_week2">Нечетная неделя</string>
+
+    <string name="fa_edit_marker">\uf044</string>
+    <string name="fa_del_marker">\uf057</string>
+
+    <style name="TextIcon" >
+        <item name="fontFamily">@font/font_awesome</item>
+    </style>
+</resources>
