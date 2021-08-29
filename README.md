@@ -4,4 +4,4 @@
 Язык программирования: Java  
 Экран Расписание | Экран Задачи | Экран Календарь
 --- | --- | ---
-![1](https://user-images.githubusercontent.com/39966486/131253324-78676f42-68e1-4e4a-8c91-c408a6ef886e.PNG) | ![2](https://user-images.githubusercontent.com/39966486/131253328-a017f873-74cb-4471-84e3-a43f42e221f8.PNG) | ![3](https://user-images.githubusercontent.com/39966486/131253330-91efca1f-49cb-4b16-abfd-9f423e2eb572.PNG)  
+![1](https://user-images.githubusercontent.com/39966486/131253324-78676f42-68e1-4e4a-8c91-c408a6ef886e.PNG) | ![2](https://user-images.githubusercontent.com/39966486/131253471-67684db2-c32e-4bc5-9372-c08d26be3b5f.PNG) | ![3](https://user-images.githubusercontent.com/39966486/131253330-91efca1f-49cb-4b16-abfd-9f423e2eb572.PNG)  
